@@ -10,7 +10,8 @@ EXE = $(BIN_DIR)/$(NAME)
 
 OBJS = \
 	$(OBJ_DIR)/TreeNode.o \
-	$(OBJ_DIR)/SplayTree.o 
+	$(OBJ_DIR)/SplayTree.o \
+	$(OBJ_DIR)/main.o
 
 all: $(EXE)
 
